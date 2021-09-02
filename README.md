@@ -1,1 +1,1 @@
-## Repo for a Spring course
+## Repo for a Spring course in Algaworks website
