@@ -12,6 +12,7 @@ public class GalomaConfig {
 
     //@Bean
     //@NotificatorType(Profiles.PRODUCTION)
+    //@Bean(initMethod="init", destroyMethod="destroy")
     public EmailNotificator emailNotificator() {
         return new EmailNotificator("SMTP");
     }
